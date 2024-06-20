@@ -1,0 +1,71 @@
+.CreateTodoButtonContainer {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.CreateTodoButton {
+  background-color: #61dafa;
+  box-shadow: 0 5px 25px rgba(97, 218, 250, 0.5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  transform: rotate(0);
+  transition: transform 0.3s ease;
+}
+
+.CreateTodoButton:hover {
+  transform: rotate(224deg);
+}
+
+.CreateTodoForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.CreateTodoForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Add {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Cancel {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.CreateTodoForm button:hover {
+  background-color: #0056b3;
+}

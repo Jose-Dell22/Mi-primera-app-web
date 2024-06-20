@@ -1,0 +1,22 @@
+.TodoCounter {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 24px;
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke; /* Color de texto en blanco ahumado */
+}
+
+.TodoCounter span {
+  font-weight: bold;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
