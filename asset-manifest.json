@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jose-Dell22/Mi-primera-app-web.git/static/css/main.b7f43047.css",
+    "main.js": "/Jose-Dell22/Mi-primera-app-web.git/static/js/main.9f3fdf04.js",
+    "index.html": "/Jose-Dell22/Mi-primera-app-web.git/index.html",
+    "static/media/delete.svg": "/Jose-Dell22/Mi-primera-app-web.git/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/Jose-Dell22/Mi-primera-app-web.git/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.b7f43047.css.map": "/Jose-Dell22/Mi-primera-app-web.git/static/css/main.b7f43047.css.map",
+    "main.9f3fdf04.js.map": "/Jose-Dell22/Mi-primera-app-web.git/static/js/main.9f3fdf04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7f43047.css",
+    "static/js/main.9f3fdf04.js"
+  ]
+}
